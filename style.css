@@ -1,0 +1,29 @@
+/* External CSS */
+h2 {
+  color: brown;
+  font-family: sans-serif;
+  border: 2px solid green;
+}
+
+/* CSS Universal Selector */
+* {
+  color: red;
+  background-image: url("./Assets/peakpx.jpg");
+}
+
+/* CSS Class Selector */
+.one {
+  color: plum;
+  font-style: italic;
+}
+
+/* CSS Element Selector */
+h3 {
+  color: chartreuse;
+  font-weight: lighter;
+}
+
+/* CSS ID Selector */
+#two {
+  color: cyan;
+}
