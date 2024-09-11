@@ -27,3 +27,40 @@ h3 {
 #two {
   color: cyan;
 }
+
+/* CSS Box Model */
+
+.all-boxes {
+  display: flex;
+}
+
+.box-one {
+  color: azure;
+  border: 2px solid chocolate;
+  margin: 20px;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.box-two {
+  color: cadetblue;
+  border: 2px dashed red;
+  margin: 20px;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.box-three {
+  color: darkorange;
+  border: 2px dotted whitesmoke;
+  margin: 20px;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
